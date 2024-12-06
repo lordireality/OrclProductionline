@@ -3,6 +3,19 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
 
+/**
+ * Шаг 23 Создайте программу, которая позволит пользователю добавить новый продукт и указать
+количество единиц этого продукта, которые должны быть созданы. Затем программа должна
+создать эти объекты и добавить их в коллекцию.
+Коллекцию можно вывести в любой момент.
+Также можно вывести статистику производства – общее количество произведнной продукции,
+количество единиц каждого вида, количество уникальных продуктов и т.д.
+Оператор будет сам решать, когда завершать работу приложения. В программе должно быть
+меню для управления из консоли или через графический интерфейс.
+
+@author (Зыкин Герман Леонидович)
+ */
+
 public class OrclProductionline {
 	
 	
@@ -10,11 +23,6 @@ public class OrclProductionline {
     private static Scanner scanner = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		//var test = new Test_Sort();
-		//test.test();
-		
-		
-		
         while (true)
         {
             System.out.println("------------------------------------------------------");
@@ -28,7 +36,7 @@ public class OrclProductionline {
             }
             catch (NumberFormatException e)
             {
-                System.out.println("Unsupported operation!");
+                System.out.println("неподдерживаемая операция!");
                 continue;
             }
 

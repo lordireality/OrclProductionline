@@ -1,4 +1,10 @@
 
+/**
+ * Шаг 12
+Создайте управляющий класс, чтобы проверить функционал видеоплеера
+@author (Зыкин Герман Леонидович)
+ */ 
+
 public class Test_MoviePlayer {
 	public void test() {
 		Screen testScreen = new Screen("1920x1080", 144, 5);

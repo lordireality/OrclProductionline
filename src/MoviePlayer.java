@@ -1,5 +1,16 @@
 import java.util.Date;
 
+/**
+ * Создайте класс с именем MoviePlayer который наследует класс Product и реализует
+MultimediaControl.
+Добавьте в этот класс два поля с именами screen и monitor type и присвойте им соответствующие
+значения.
+Реализуйте методы из интерфейса MultimediaControl по аналогии с аудиоплеером.
+Создайте метод toString, который вызывает метод toString класса product и вывдоит детали о мониторе и экране.
+
+@author (Зыкин Герман Леонидович)
+ */
+
 public class MoviePlayer extends Product implements MultimediaControl {
     private Screen screen;
     private MonitorType monitorType;
