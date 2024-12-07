@@ -4,6 +4,15 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 
+/**
+ * Шаг 22
+ * Создайте управляющий класс с именем ViewFileInfo, который будет считывать информацию из
+файла TestResults.txt file и выводить ее в консоль. Используйте try-блок, чтобы обрабатывать
+ситуации, когда файл не существует.
+
+@author (Зыкин Герман Леонидович)
+ */
+
 public class ViewFileInfo {
 	
 	public void view() {
